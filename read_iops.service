@@ -1,0 +1,4 @@
+[Service]
+Slice=io_parent.slice
+IOAccounting=yes
+ExecStart=/root/read_iops.sh

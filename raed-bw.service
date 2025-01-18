@@ -1,0 +1,7 @@
+[Unit]
+Description=Disk bandwidth
+
+[Service]
+ExecStart=/root/read_bw.sh
+IOAccounting=yes
+IOReadBandwidthMax=/dev/nvme0n1 100M

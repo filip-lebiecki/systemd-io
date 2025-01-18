@@ -47,8 +47,6 @@ vi read_iops.sh
 
 systemctl cat io_parent.slice
 systemctl cat read_iops
-
-
 ```
 
 ### Transient units
